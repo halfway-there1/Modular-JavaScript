@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#people {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+li {
+  min-width: 72px;
+  min-height: 20px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background-color: rgb(175, 242, 179);
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+}
+
+i {
+  color: white;
+  background-color: grey;
+  padding: 2px;
+  font-size: 6px;
+  font-style: normal;
+  border-radius: 100%;
+  cursor: pointer;
+}
